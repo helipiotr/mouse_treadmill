@@ -1,0 +1,423 @@
+Archive member included because of file (symbol)
+
+C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc176x.o (SystemInit)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc176x.o (__main)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+                              C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+msTicks             0x4               ./src/systick_main.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .group         0x00000000        0x8 ./src/leds.o
+ .text          0x00000000        0x0 ./src/leds.o
+ .data          0x00000000        0x0 ./src/leds.o
+ .bss           0x00000000        0x0 ./src/leds.o
+ .text.led2_off
+                0x00000000       0x18 ./src/leds.o
+ .debug_macro   0x00000000       0x10 ./src/leds.o
+ .debug_macro   0x00000000      0x12d ./src/leds.o
+ .debug_macro   0x00000000      0x5b2 ./src/leds.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .group         0x00000000        0x8 ./src/systick_main.o
+ .text          0x00000000        0x0 ./src/systick_main.o
+ .data          0x00000000        0x0 ./src/systick_main.o
+ .bss           0x00000000        0x0 ./src/systick_main.o
+ .debug_macro   0x00000000      0x874 ./src/systick_main.o
+ .debug_macro   0x00000000       0x1c ./src/systick_main.o
+ .debug_macro   0x00000000       0x2e ./src/systick_main.o
+ .debug_macro   0x00000000       0x10 ./src/systick_main.o
+ .debug_macro   0x00000000      0x12d ./src/systick_main.o
+ .debug_macro   0x00000000      0x5b2 ./src/systick_main.o
+ .debug_macro   0x00000000       0x18 ./src/systick_main.o
+ .debug_macro   0x00000000      0x7af ./src/systick_main.o
+ .debug_macro   0x00000000      0x2c7 ./src/systick_main.o
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xac C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x7af C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000      0x174 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc176x.o
+LOAD ./src/leds.o
+LOAD ./src/systick_main.o
+LOAD C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000      0x584
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x584 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x584 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x8 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4       0x80 ./src/cr_startup_lpc176x.o
+                0x000000f4                NMI_Handler
+                0x000000f6                HardFault_Handler
+                0x000000f8                MemManage_Handler
+                0x000000fa                BusFault_Handler
+                0x000000fc                UsageFault_Handler
+                0x000000fe                SVCall_Handler
+                0x00000100                DebugMon_Handler
+                0x00000102                PendSV_Handler
+                0x00000106                PWM1_IRQHandler
+                0x00000106                I2C0_IRQHandler
+                0x00000106                I2C1_IRQHandler
+                0x00000106                EINT2_IRQHandler
+                0x00000106                UART1_IRQHandler
+                0x00000106                EINT3_IRQHandler
+                0x00000106                CANActivity_IRQHandler
+                0x00000106                TIMER3_IRQHandler
+                0x00000106                UART0_IRQHandler
+                0x00000106                MCPWM_IRQHandler
+                0x00000106                RIT_IRQHandler
+                0x00000106                IntDefaultHandler
+                0x00000106                PLL0_IRQHandler
+                0x00000106                USBActivity_IRQHandler
+                0x00000106                PLL1_IRQHandler
+                0x00000106                SSP0_IRQHandler
+                0x00000106                I2S_IRQHandler
+                0x00000106                I2C2_IRQHandler
+                0x00000106                RTC_IRQHandler
+                0x00000106                TIMER0_IRQHandler
+                0x00000106                SPI_IRQHandler
+                0x00000106                UART3_IRQHandler
+                0x00000106                EINT1_IRQHandler
+                0x00000106                TIMER1_IRQHandler
+                0x00000106                UART2_IRQHandler
+                0x00000106                ADC_IRQHandler
+                0x00000106                SSP1_IRQHandler
+                0x00000106                USB_IRQHandler
+                0x00000106                BOD_IRQHandler
+                0x00000106                TIMER2_IRQHandler
+                0x00000106                WDT_IRQHandler
+                0x00000106                QEI_IRQHandler
+                0x00000106                EINT0_IRQHandler
+                0x00000106                CAN_IRQHandler
+                0x00000106                DMA_IRQHandler
+                0x00000106                ENET_IRQHandler
+                0x00000108                data_init
+                0x0000011e                bss_init
+                0x00000130                ResetISR
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000174      0x188 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/systick_main.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.led2_init
+                0x00000300       0x2c ./src/leds.o
+                0x00000300                led2_init
+ .text.led2_on  0x0000032c       0x18 ./src/leds.o
+                0x0000032c                led2_on
+ .text.led2_invert
+                0x00000344       0x30 ./src/leds.o
+                0x00000344                led2_invert
+ .text.NVIC_SetPriority
+                0x00000374       0x54 ./src/systick_main.o
+ .text.SysTick_Config
+                0x000003c8       0x44 ./src/systick_main.o
+ .text.SysTick_Handler
+                0x0000040c       0x1c ./src/systick_main.o
+                0x0000040c                SysTick_Handler
+ .text.systick_delay
+                0x00000428       0x2c ./src/systick_main.o
+ .text.main     0x00000454       0x4c ./src/systick_main.o
+                0x00000454                main
+ .text.SystemInit
+                0x000004a0       0xe0 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000004a0                SystemInit
+ .text.__weak_main
+                0x00000580        0x4 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00000580                __weak_main
+                0x00000580                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000584                . = ALIGN (0x4)
+
+.glue_7         0x00000584        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000584        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000584        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000584        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000584        0x0
+ .iplt          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+
+.rel.dyn        0x00000584        0x0
+ .rel.iplt      0x00000000        0x0 ./src/cr_startup_lpc176x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000584                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000584                __exidx_end = .
+                0x00000584                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000584
+ FILL mask 0xff
+                0x2007c000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x00000584
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.SystemCoreClock
+                0x10000000        0x4 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x10000000                SystemCoreClock
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x00000588
+ .igot.plt      0x00000000        0x0 ./src/cr_startup_lpc176x.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000004        0x8
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.i.4946    0x10000004        0x4 ./src/systick_main.o
+ *(COMMON)
+ COMMON         0x10000008        0x4 ./src/systick_main.o
+                0x10000008                msTicks
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _ebss = .
+                0x1000000c                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x1000000c        0x0
+                0x1000000c                _noinit = .
+ *(.noinit*)
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _end_noinit = .
+                0x1000000c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(LPCX176x_cmsis2_systick.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x10b9
+ .debug_info    0x00000000      0x2be ./src/cr_startup_lpc176x.o
+ .debug_info    0x000002be      0x534 ./src/leds.o
+ .debug_info    0x000007f2      0x5af ./src/systick_main.o
+ .debug_info    0x00000da1      0x318 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_abbrev   0x00000000      0x4e3
+ .debug_abbrev  0x00000000      0x12b ./src/cr_startup_lpc176x.o
+ .debug_abbrev  0x0000012b       0xeb ./src/leds.o
+ .debug_abbrev  0x00000216      0x1e7 ./src/systick_main.o
+ .debug_abbrev  0x000003fd       0xe6 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_loc      0x00000000      0x1be
+ .debug_loc     0x00000000      0x1be ./src/cr_startup_lpc176x.o
+
+.debug_aranges  0x00000000      0x120
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000080       0x38 ./src/leds.o
+ .debug_aranges
+                0x000000b8       0x40 ./src/systick_main.o
+ .debug_aranges
+                0x000000f8       0x28 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000       0xe0
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc176x.o
+ .debug_ranges  0x00000070       0x28 ./src/leds.o
+ .debug_ranges  0x00000098       0x30 ./src/systick_main.o
+ .debug_ranges  0x000000c8       0x18 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macro    0x00000000     0x2e6c
+ .debug_macro   0x00000000       0x52 ./src/cr_startup_lpc176x.o
+ .debug_macro   0x00000052      0x87a ./src/cr_startup_lpc176x.o
+ .debug_macro   0x000008cc       0x10 ./src/cr_startup_lpc176x.o
+ .debug_macro   0x000008dc      0x12d ./src/cr_startup_lpc176x.o
+ .debug_macro   0x00000a09      0x5b2 ./src/cr_startup_lpc176x.o
+ .debug_macro   0x00000fbb       0x7f ./src/leds.o
+ .debug_macro   0x0000103a      0x874 ./src/leds.o
+ .debug_macro   0x000018ae       0x1c ./src/leds.o
+ .debug_macro   0x000018ca       0x2e ./src/leds.o
+ .debug_macro   0x000018f8       0x18 ./src/leds.o
+ .debug_macro   0x00001910      0x7af ./src/leds.o
+ .debug_macro   0x000020bf      0x2c7 ./src/leds.o
+ .debug_macro   0x00002386       0x91 ./src/systick_main.o
+ .debug_macro   0x00002417       0x82 ./src/systick_main.o
+ .debug_macro   0x00002499       0x34 ./src/systick_main.o
+ .debug_macro   0x000024cd      0x12b C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000025f8      0x874 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_line     0x00000000      0x875
+ .debug_line    0x00000000      0x1e7 ./src/cr_startup_lpc176x.o
+ .debug_line    0x000001e7      0x1e5 ./src/leds.o
+ .debug_line    0x000003cc      0x2d3 ./src/systick_main.o
+ .debug_line    0x0000069f      0x1d6 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000     0x8e42
+ .debug_str     0x00000000     0x3d6c ./src/cr_startup_lpc176x.o
+                               0x3deb (size before relaxing)
+ .debug_str     0x00003d6c     0x442a ./src/leds.o
+                               0x7f6f (size before relaxing)
+ .debug_str     0x00008196      0x867 ./src/systick_main.o
+                               0x8572 (size before relaxing)
+ .debug_str     0x000089fd      0x445 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                               0x8103 (size before relaxing)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ./src/cr_startup_lpc176x.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/leds.o
+ .comment       0x00000000       0x71 ./src/systick_main.o
+ .comment       0x00000000       0x71 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000070       0x70 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                                 0x71 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/leds.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/systick_main.o
+ .ARM.attributes
+                0x00000099       0x33 C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x000000cc       0x33 c:/nxp/lpcxpresso_7.8.0_426/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x284
+ .debug_frame   0x00000000       0xf0 ./src/cr_startup_lpc176x.o
+ .debug_frame   0x000000f0       0x98 ./src/leds.o
+ .debug_frame   0x00000188       0xc0 ./src/systick_main.o
+ .debug_frame   0x00000248       0x3c C:\Users\Piotr\Documents\LPCXpresso_7.8.0_426\mouse_threadmill\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
