@@ -22,6 +22,7 @@
 
 #define TICKRATE_HZ1 (10000)
 #define MEMORY_CAPACITY 100
+#define regulation_step 1
 static ADC_CLOCK_SETUP_T ADCSetup;
 static uint32_t rotation_counter=0;
 static uint16_t sensor_threshold=0x4B0;
@@ -29,6 +30,7 @@ static uint32_t rotation_phase=0;
 static uint32_t rotation_time=0;
 static int rotation_debug_holder[MEMORY_CAPACITY];
 static int rotation_debug_holder2[MEMORY_CAPACITY];
+static uint32_t desired_rotation_time=150;
 
 //static volatile uint8_t Burst_Mode_Flag = 0;
 /*
@@ -57,6 +59,8 @@ void SysTick_Handler(void)
 {
 	uint16_t dataADC;
 	//int i;
+	uint32_t currentPWM;
+	currentPWM=LPC_PWM1->MR1;
 
 	//Board_LED_Toggle(0);
 	Board_LED_Set(0,1);
@@ -77,20 +81,36 @@ void SysTick_Handler(void)
 	*/
 
 	rotation_time++;
-	if(rotation_counter<MEMORY_CAPACITY){	//debug line
-        if(dataADC>sensor_threshold){
-            if(rotation_phase==0){
-            	rotation_debug_holder[rotation_counter]=rotation_time;		//debug line
-            	rotation_debug_holder2[rotation_counter]=dataADC;
-            	rotation_counter++;
-                rotation_time=0;
-                rotation_phase=1;
-            }
-        }else{
-        	rotation_phase = 0;
+	//if(rotation_counter<MEMORY_CAPACITY){	//debug line
+    if(dataADC>sensor_threshold){
+        if(rotation_phase==0){
+            	//rotation_debug_holder[rotation_counter]=rotation_time;		//debug line
+            	//rotation_debug_holder2[rotation_counter]=dataADC;				//debug line
+
+            	if(currentPWM < (1000-regulation_step) && currentPWM > (regulation_step)){	//debug needed here
+            		if(rotation_time>desired_rotation_time){
+            			PWM_SetCycle(currentPWM+regulation_step,1000);
+            		}else{
+            			PWM_SetCycle(currentPWM-regulation_step,1000);
+            		}
+            	}
+            rotation_counter++;
+            rotation_time=0;
+            rotation_phase=1;
         }
 
-	}				//debug line
+    }else{
+    	rotation_phase = 0;
+    }
+
+	//}				//debug line
+
+    if(rotation_time==1000){
+    	if(currentPWM < (1000-regulation_step)){
+    		PWM_SetCycle(currentPWM+10*regulation_step,1000);
+    	}
+    	rotation_time=0;
+    }
 
 
 	Board_LED_Set(0,0);
@@ -148,33 +168,20 @@ int main(void) {
 	Chip_ADC_Init(_LPC_ADC_ID, &ADCSetup);
 	Chip_ADC_EnableChannel(_LPC_ADC_ID, _ADC_CHANNLE, ENABLE);
 	Chip_ADC_SetBurstCmd(_LPC_ADC_ID, ENABLE);
-	int i;
-
-	/*
-	uint32_t initial_val,new_val;
-	uint32_t mask= (1<<25);
-	initial_val = LPC_SYSCTL->PCONP;
-	LPC_SYSCTL->PCONP |= mask;
-	//LPC_SYSCTL->PCONP |= (1<<3);
-	//int cast = 3;
-	//cast= (int ) test_var;
-	new_val= LPC_SYSCTL->PCONP;
-	DEBUGOUT("The old value is %d, and the new one %d \n",initial_val, new_val);
-	 */
-
-
+	//int i;
 
 	SysTick_Config(SystemCoreClock / TICKRATE_HZ1);
 
-
     while(1) {
     	__WFI();
+    	/*
     	if(rotation_counter==MEMORY_CAPACITY){			//not rotation_cycle?
     		for(i=0;i<MEMORY_CAPACITY;i++){
     		DEBUGOUT("%d \n",rotation_debug_holder[i]);//,rotation_debug_holder2[i]);
     		}
     		rotation_counter++;
     	}
+    	*/
     }
     return 0 ;
 }
